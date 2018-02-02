@@ -12,6 +12,7 @@ $container->add("Grzesiek");
 $container->add("Maciek");
 $container->add("Rafał");
 $container->add('Dupa');
+$container->reverse();
 
 foreach ($container as $item) {
     echo $item->getData();
