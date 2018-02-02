@@ -1,0 +1,22 @@
+{
+    "name": "crafterr/composer",
+    "description": "My composer library",
+    "type": "library",
+    "require": {
+        "symfony/var-dumper": "^4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "crafterr",
+            "email": "adam@crafter.net.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Crafter\\Composer\\": "src/"
+        }
+
+    },
+    "minimum-stability": "stable"
+}
